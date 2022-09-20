@@ -12,7 +12,7 @@ export default createStore({
      * @property {boolean} error - The error state
      */
     state: {
-        jokes: [],
+        jokes: JSON.parse(localStorage.getItem('jokes')) || [],
         categories: [],
         loading: false,
         error: false,

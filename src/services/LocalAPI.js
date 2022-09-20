@@ -10,6 +10,7 @@ export default {
             return jokes;
         } else{
             localStorage.setItem('jokes', JSON.stringify([]));
+            return [];
         }
     },
     /**
