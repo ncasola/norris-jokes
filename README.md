@@ -1,7 +1,7 @@
 # Chuck Norris Jokes API Display
 
 Simple APP in VUE to show the jokes from Chuck Norris Jokes API
-Working app: https://norris.ncasola.cloud
+Working app: https://norris-jokes.onrender.com
 
 ## Project setup
 ```
