@@ -8,6 +8,8 @@ export default {
         if (localStorage.getItem('jokes')) {
             const jokes = JSON.parse(localStorage.getItem('jokes'));
             return jokes;
+        } else{
+            localStorage.setItem('jokes', JSON.stringify([]));
         }
     },
     /**
